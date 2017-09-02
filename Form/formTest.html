@@ -1,0 +1,69 @@
+
+<!--form表单练习-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <form name="regFrom" method="post" action="http://www.baidu.com">
+
+        单行文本框<input type="text" name="username" id="username" maxlength="10" readonly="readonly" value="326763"/><br>
+        <label for="password">密码框</label><input type="password" name="password" id="password" size="5"/><br>
+        隐藏域<input type="hidden" name="hidden" id="hidden"/><br>
+        单选按钮 <input type="radio" name="sex" id="male" checked ="checked"/>男
+                <input type="radio" name="sex" id="famale"/>女<br>
+        复选框<input type="checkbox" name="hobby" value="1" id="football" disabled="disabled"/>足球
+             <input type="checkbox" name="hobby" value="2" id="basketball"/>蓝球
+             <input type="checkbox" name="hobby" value="3" id="paiball">排球<br>
+        图像域<input type="image" src="top.jpg" width="100px" height="20px" name="image" id="image"/><br>
+        文件上传与域<input type="file" name="file"/><br>
+        提交按钮<input type="submit" name="submit" value="提交按钮"/><br>
+        重置按钮<input type="reset" name="reset" value="重置按钮"/><br>
+        普通按钮<input type="button" name="button" value="普通按钮"/><br>
+
+        button提交按钮<button name="submit2" type="submit" >提交按钮</button>
+        button重置按钮<button name="reset2" type="reset" ><b>重置按钮</b></button>
+        button普通按钮<button name="button2" type="button" disabled="disabled"><i>普通按钮</i></button><br/>
+
+        下拉菜单<br/>
+        <select name="city" id="city">
+            <option>北京</option>
+            <option selected="selected">上海</option>
+            <option value="nanjing">南京</option>
+            <option>香港</option>
+        </select>
+
+        列表框<br/>
+        <select name="city2" id="city2" size="2" multiple = multiple>
+            <option>北京</option>
+            <option selected="selected">上海</option>
+            <option value="nanjing">南京</option>
+            <option>香港</option>
+        </select><br/>
+
+        选项组列表框<br/>
+        <select name="city3" id="city3" size="6" multiple = multiple>
+            <optgroup label="一线城市">
+                <option>北京</option>
+                <option selected="selected">上海</option>
+            </optgroup>
+            <optgroup label="二线城市">
+                <option value="nanjing">南京</option>
+                <option>香港</option>
+            </optgroup>
+
+        </select><br/>
+
+        多行文本框<br/>
+        <textarea name="content" cols="28px" rows="10px" readonly="readonly">
+            1.协议
+            2.同意
+        </textarea>
+
+    </form>
+
+</body>
+</html>

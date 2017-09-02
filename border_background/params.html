@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS边框和背景属性</title>
+    <style>
+
+        #three{
+            width:200px;
+            height:300px;
+            border-width:2px;
+            border-color: yellow;
+            border-style: dashed;
+        }
+        /*
+            对左边框进行设置
+         */
+        #four{
+
+            border-left: dashed red 2px;
+        }
+
+        body{
+            /*background: url("top.jpg");!*背景图片*!
+            background-position: 200px 50px;!*位置*!
+            background-repeat: no-repeat;!*重复方式*!
+            background-attachment: fixed;!*背景的滚动方式*!*/
+
+            /*简写*/
+            background: fixed 400px 250px url("top.jpg") no-repeat;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <p id="three">
+        带边框的p标签
+    </p>
+    <p id="four">
+        只带左边框的p标签
+    </p>
+
+</body>
+</html>

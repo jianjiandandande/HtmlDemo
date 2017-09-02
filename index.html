@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>frameset框架页</title>
+</head>
+<!---->
+<frameset rows="30%,*">
+    <frame src="top.jpg" name="topFrame"/>
+    <frameset cols="20%,*">
+        <frame src="left.html" name="leftFrame" noresize="noresize"/>
+        <frame src="page1.html" name="rightFrame"/>
+    </frameset>
+
+    <noframes>
+        <body>
+            此浏览器不支持框架!
+        </body>
+    </noframes>
+
+</frameset>
+
+</html>
