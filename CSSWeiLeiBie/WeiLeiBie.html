@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS常用的伪类别属性</title>
+    <style>
+        #navigation ul{
+            list-style-type: none;/*去掉无序列表前的点*/
+            padding:0px;
+            width: 200px;
+        }
+
+        #navigation ul li{
+            border-bottom:1px solid #1d9f9f;
+        }
+        #navigation ul li a{
+            text-decoration: none;/*去掉超链接的下划线*/
+            display: block;/*将行级标签转化为块级标签*/
+            width: 200px;
+            height: 25px;
+            border-left: 12px solid #711515;
+            border-right: 1px solid #711515;
+        }
+        /*超链接的普通样式和被点击过的超链接样式*/
+        #navigation ul li a:link,#navigation ul li a:visited{
+            background-color: #c11136;
+            color: #ffffff;
+        }
+        /*鼠标指针经过超链接上时的样式*/
+        #navigation ul li a:hover{
+            background-color: #1d9f9f;
+            color: #ffff00;
+        }
+        /*在超连接上单击时，即“当前激活”时超链接的样式*/
+        #navigation ul li a:active{
+            color: #ff00ff;
+        }
+    </style>
+</head>
+<body>
+
+<div id="navigation">
+    <ul>
+        <li><a href="#">home</a> </li>
+        <li><a href="#">my web</a> </li>
+        <li><a href="#">my friends</a> </li>
+        <li><a href="#">my pets</a> </li>
+        <li><a href="#">call me</a> </li>
+    </ul>
+</div>
+
+</body>
+</html>

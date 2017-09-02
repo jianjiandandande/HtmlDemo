@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CSSLianjieWaibu/CSSLianjieWaibu.iml" filepath="$PROJECT_DIR$/CSSLianjieWaibu/CSSLianjieWaibu.iml" />
       <module fileurl="file://$PROJECT_DIR$/CSSListAndForm/CSSListAndForm.iml" filepath="$PROJECT_DIR$/CSSListAndForm/CSSListAndForm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSSWeiLeiBei.iml" filepath="$PROJECT_DIR$/CSSWeiLeiBei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSSWeiLeiBie/CSSWeiLeiBie.iml" filepath="$PROJECT_DIR$/CSSWeiLeiBie/CSSWeiLeiBie.iml" />
       <module fileurl="file://$PROJECT_DIR$/Form/Form.iml" filepath="$PROJECT_DIR$/Form/Form.iml" />
       <module fileurl="file://$PROJECT_DIR$/border_background/border_background.iml" filepath="$PROJECT_DIR$/border_background/border_background.iml" />
       <module fileurl="file://$PROJECT_DIR$/cssStyle/cssStyle.iml" filepath="$PROJECT_DIR$/cssStyle/cssStyle.iml" />
